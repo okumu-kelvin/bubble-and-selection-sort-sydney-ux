@@ -13,6 +13,4 @@ def selection_sort(nums):
         print(f"Pass {i+1}: {nums}")
 
 x = [33, 45, 12, 90, 2]
-print("Original list:", x)
-selection_sort(x)
-print("Sorted list:", x)
+print(selection_sort(x))
